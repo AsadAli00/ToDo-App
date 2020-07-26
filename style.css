@@ -1,0 +1,48 @@
+body{
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.Main_div{
+    background-image: url(https://cdn.wallpaperhub.app/cloudcache/7/4/f/3/d/5/74f3d51cbec9db78da32e103de1b28538af1b76a.jpg);
+    height: 500px;
+    text-align: center;
+}
+.inner_div{
+    padding-top: 50px;
+}
+.Heading{
+    padding-top: 20px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bolder !important;
+
+}
+.list_div{
+    padding-top: 20px;
+    width: fit-content;
+    height: 280px;
+    overflow: auto;
+}
+.btn {
+    background-color: cyan;
+    margin: 5px;
+    
+}
+.spanText{
+    margin-right: 100px;
+}
+.list{
+    
+
+}
+.Footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: #373A36;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+}
