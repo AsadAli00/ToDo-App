@@ -29,7 +29,7 @@ function addTodo(){
     editbtn.appendChild(editText)
     editbtn.setAttribute("class", "btn")
     li.appendChild(editbtn)
-    editbtn.setAttribute("onclick","editItem()")
+    editbtn.setAttribute("onclick","editItem(this)")
 
     li.appendChild(delbtn)
     var list = document.getElementById("list")
@@ -45,10 +45,10 @@ function delItem(e){
 function delAll(){
     list.innerHTML = ""
 }
-function editItem(){
-    var span_edit = document.getElementById("span_Text")  
-    var editValue = prompt("Enter Edit Value",span_edit.childNodes[0].nodeValue)
-    span_edit.childNodes[0].nodeValue = editValue;
+function editItem(e){
+    var val = e.previousSibling.childNodes[0].nodeValue  
+    var editValue = prompt("Enter Edit Value",val)
+    e.previousSibling.childNodes[0].nodeValue = editValue;
 
 }
 

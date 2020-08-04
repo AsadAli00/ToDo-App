@@ -6,7 +6,7 @@ body{
 }
 .Main_div{
     background-image: url(https://cdn.wallpaperhub.app/cloudcache/7/4/f/3/d/5/74f3d51cbec9db78da32e103de1b28538af1b76a.jpg);
-    height: 500px;
+    height: 542px;
     text-align: center;
 }
 .inner_div{
@@ -32,10 +32,6 @@ body{
 }
 .spanText{
     margin-right: 100px;
-}
-.list{
-    
-
 }
 .Footer {
     color: white;
